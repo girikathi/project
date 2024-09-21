@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-list li {
+    margin: 0 20px;
+}
+
+.navbar-list a {
+    color: #f5a623;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.nav-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.about-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.about-section h2 {
+    color: #000;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    color: orange;
+    margin-bottom: 30px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.about-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: left;
+    width: 45%;
+    box-sizing: border-box;
+}
+
+.about-item img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.about-item h3 {
+    color: #000;
+    margin-bottom: 10px;
+}   
+
+.about-item p {
+    color: #333;
+}
+.btn {
+    display: inline-block;
+    background-color: #f5a623;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.projects-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.projects-section h2 {
+    color: #000;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.projects-section p {
+    color: orange;
+    margin-bottom: 30px;
+}
+
+.project-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project-gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: orange;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+
+  
